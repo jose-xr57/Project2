@@ -1,0 +1,160 @@
+#root {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+#root > .App {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.article {
+  width: 100%;
+  padding: 20px;
+}
+
+button {
+  color: #444;
+  background-color: antiquewhite;
+  border: 2px solid #eee;
+  border-radius: 0.5rem;
+  transition: all 1s easy;
+  box-shadow: 0.5rem 0.5rem 1rem #ccc;
+  padding: 10px 30px;
+}
+@media (max-width: 475px) {
+  #root > .App {
+    display: grid;
+    align-items: center;
+    max-width: 340px;
+  }
+
+  img {
+    width: 120px;
+    height: 160px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-radius: 40px 40px;
+  }
+
+  * {
+    font-size: 16px;
+  }
+
+  .info-text {
+    padding-left: 20px;
+  }
+
+  #root > .App {
+    background-color: #f3eded;
+  }
+
+  button {
+    margin: 10px 0;
+  }
+
+  .container-info span {
+    color: #444;
+    font-size: 15px;
+  }
+
+  .article > h1 {
+    font-size: 20px;
+  }
+
+  .App {
+    box-shadow: 5px 5px 20px 5px #aaaaaa;
+  }
+}
+
+@media (min-width: 476px) {
+  #root > .App {
+    display: grid;
+    align-items: center;
+    width: 340px;
+  }
+
+  img {
+    width: 120px;
+    height: 160px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-radius: 40px 40px;
+  }
+
+  * {
+    font-size: 18px;
+  }
+
+  .info-text {
+    padding-left: 20px;
+  }
+
+  #root > .App {
+    width: 70%;
+  }
+
+  button {
+    margin: 10px 0;
+  }
+
+  .container-info span {
+    color: #444;
+    font-size: 15px;
+  }
+
+  .article > h1 {
+    font-size: 20px;
+  }
+
+  .App {
+    box-shadow: 5px 5px 20px 5px #aaaaaa;
+  }
+}
+
+/* COSAS POR HACER ----
+-----------------------------
+-----------------------------*/
+@media (min-width: 768px) {
+  #root > .App {
+    display: grid;
+    align-items: center;
+    width: 340px;
+  }
+
+  img {
+    width: 220px;
+    height: 160px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-radius: 40px 40px;
+    margin: 30px;
+  }
+
+  * {
+    font-size: 22px;
+  }
+
+  .info-text {
+    padding-left: 20px;
+  }
+
+  #root > .App {
+    width: 70%;
+  }
+
+  button {
+    margin: 10px 0;
+  }
+
+  .container-info span {
+    color: #444;
+    font-size: 20px;
+  }
+
+  .article > h1 {
+    font-size: 25px;
+  }
+
+  .App {
+    box-shadow: 5px 5px 20px 5px #aaaaaa;
+  }
+}
